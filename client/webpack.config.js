@@ -13,7 +13,6 @@ module.exports = {
       '.json',
     ],
     alias: {
-      Src: path.resolve(__dirname, 'src/'),
       Components: path.resolve(__dirname, 'src/components/'),
       Containers: path.resolve(__dirname, 'src/containers/'),
       Hooks: path.resolve(__dirname, 'src/hooks/'),
