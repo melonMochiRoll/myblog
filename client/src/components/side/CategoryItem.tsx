@@ -7,10 +7,12 @@ type CategoryItemProps = {
 }
 
 const CategoryItem: FC<CategoryItemProps> = ({ tag }) => {
+  const { name, count } = tag;
+
   return (
     <ListItem>
-      {tag.name}
-      <span>{tag.count}</span>
+      {name}
+      <span>{count}</span>
     </ListItem>
   )
 }
