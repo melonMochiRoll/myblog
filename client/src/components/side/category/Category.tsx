@@ -1,8 +1,9 @@
 import React, { FC } from 'react';
 import styled from '@emotion/styled';
-import CategoryItem from 'Components/side/CategoryItem';
 import ListIcon from '@mui/icons-material/FormatListBulleted';
-import { Tag } from 'Components/side/CategoryList';
+import { Tag } from 'Components/side/category/CategoryList';
+import CategoryItem from 'Components/side/category/CategoryItem';
+
 
 type CategoryProps = {
   list: Tag[],

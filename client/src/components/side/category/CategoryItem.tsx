@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import styled from '@emotion/styled';
-import { Tag } from 'Components/side/CategoryList';
+import { Tag } from 'Components/side/category/CategoryList';
 
 type CategoryItemProps = {
   tag: Tag,
