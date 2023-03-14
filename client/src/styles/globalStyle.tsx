@@ -13,6 +13,10 @@ const style = css`
     padding: 0;
     font-family: 'Pretendard';
   }
+
+  a {
+    text-decoration: none;
+  }
 `
 
 export const GlobalStyle = () => <Global styles={style} />
